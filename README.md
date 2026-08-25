@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Guanzheng+Wei+%F0%9F%91%8B;LLM+PM+%C2%B7+Agent+Builder" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Guanzheng+Wei+%F0%9F%91%8B;LLM+PM+%C2%B7+Agent+Builder;ASR+%C2%B7+Jobs+%26+Recruiting+%C2%B7+Model+Data" alt="Typing intro" />
 
 <p>
   <a href="https://guanzhengpm.github.io/"><img src="https://img.shields.io/badge/Blog-guanzhengpm.github.io-blue?style=flat-square&logo=githubpages&logoColor=white" alt="Blog"></a>

@@ -19,7 +19,7 @@
 <a href="https://tokscale.ai/u/GuanZhengPM">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=light">
-    <img src="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=dark" alt="Live token usage stats" />
+    <img width="100%" src="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=dark" alt="Live token usage stats" />
   </picture>
 </a>
 

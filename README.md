@@ -43,9 +43,3 @@
     <img src="https://raw.githubusercontent.com/GuanZhengPM/GuanZhengPM/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
   </picture>
 </div>
-
----
-
-<div align="center">
-  <sub>⚡ This README contains no hand-written HTML that an agent didn't touch first.</sub>
-</div>

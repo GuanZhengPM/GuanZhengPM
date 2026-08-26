@@ -29,18 +29,40 @@ projects below come from hands-on use and local experiments.
   </picture>
 </a>
 
-<sub>Cost shown is the API list-price equivalent; actual usage runs on subscription plans. Live card via <a href="https://tokscale.ai">tokscale.ai</a>.<br>费用按 API 公开价格等值估算，实际使用基于订阅方案；动态图表由 <a href="https://tokscale.ai">tokscale.ai</a> 提供。</sub>
+Cost shown is the API list-price equivalent; actual usage runs on subscription plans. Live card via [tokscale.ai](https://tokscale.ai).<br>
+费用按 API 公开价格等值估算，实际使用基于订阅方案；动态图表由 [tokscale.ai](https://tokscale.ai) 提供。
 
 ## 🛠️ What I'm Building / 正在做的项目
 
-| Project / 项目 | What it does / 项目简介 |
-|---|---|
-| [**longtime-agent**](https://github.com/GuanZhengPM/longtime-agent) | Long-horizon coding-agent harness with durable state and evidence-gated completion.<br><sub>具备持久状态和以证据为门槛的完成判定机制的长周期 Coding Agent Harness。</sub> |
-| [**AAA-Agent**](https://github.com/GuanZhengPM/AAA-Agent) | An AI coding agent built from scratch in TypeScript.<br><sub>使用 TypeScript 从零构建的 AI Coding Agent。</sub> |
-| [**agent-merge**](https://github.com/GuanZhengPM/agent-merge) | Save-points, parallel timelines, and failure bisection for agent work.<br><sub>为 Agent 工作提供存档点、并行时间线和故障二分定位。</sub> |
-| [**TurnAlign**](https://github.com/GuanZhengPM/TurnAlign) | Model-replaceable streaming ASR orchestration with timestamps and speaker diarization.<br><sub>支持模型替换、时间戳和说话人分离的流式 ASR 编排。</sub> |
-| [**DayAudio**](https://github.com/GuanZhengPM/DayAudio) | Local batch processing for day-long recordings: resumable ASR, file-local speaker tracks, explicit owner profiles, and evidence-linked summaries.<br><sub>面向全天录音的本地批处理：可恢复 ASR、文件内说话人轨、显式主要说话人（owner）档案和证据关联摘要。</sub> |
-| [**guanzhengpm.github.io**](https://github.com/GuanZhengPM/guanzhengpm.github.io) | Notes on agents, evaluations, and LLM product work.<br><sub>关于 Agent、评测和大模型产品工作的博客笔记。</sub> |
+### [longtime-agent](https://github.com/GuanZhengPM/longtime-agent)
+
+Long-horizon coding-agent harness with durable state and evidence-gated completion.<br>
+具备持久状态和以证据为门槛的完成判定机制的长周期 Coding Agent Harness。
+
+### [AAA-Agent](https://github.com/GuanZhengPM/AAA-Agent)
+
+An AI coding agent built from scratch in TypeScript.<br>
+使用 TypeScript 从零构建的 AI Coding Agent。
+
+### [agent-merge](https://github.com/GuanZhengPM/agent-merge)
+
+Save-points, parallel timelines, and failure bisection for agent work.<br>
+为 Agent 工作提供存档点、并行时间线和故障二分定位。
+
+### [TurnAlign](https://github.com/GuanZhengPM/TurnAlign)
+
+Model-replaceable streaming ASR orchestration with timestamps and speaker diarization.<br>
+支持模型替换、时间戳和说话人分离的流式 ASR 编排。
+
+### [DayAudio](https://github.com/GuanZhengPM/DayAudio)
+
+Local batch processing for day-long recordings: resumable ASR, file-local speaker tracks, explicit owner profiles, and evidence-linked summaries.<br>
+面向全天录音的本地批处理：可恢复 ASR、文件内说话人轨、显式主要说话人（owner）档案和证据关联摘要。
+
+### [guanzhengpm.github.io](https://github.com/GuanZhengPM/guanzhengpm.github.io)
+
+Notes on agents, evaluations, and LLM product work.<br>
+关于 Agent、评测和大模型产品工作的博客笔记。
 
 ## 🐍 Contribution Snake / 贡献记录
 

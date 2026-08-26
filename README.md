@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Guanzheng+Wei+%F0%9F%91%8B;LLM+PM+%C2%B7+Agent+Builder;ASR+%C2%B7+Jobs+%26+Recruiting+%C2%B7+Model+Data" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Guanzheng+Wei+%F0%9F%91%8B;LLM+PM+%C2%B7+Agent+Builder;ASR+%C2%B7+Jobs+%26+Recruiting+%C2%B7+Model+Data" alt="Typing intro / 动态简介" />
 
 <p>
   <a href="https://guanzhengpm.github.io/"><img src="https://img.shields.io/badge/Blog-guanzhengpm.github.io-blue?style=flat-square&logo=githubpages&logoColor=white" alt="Blog"></a>
@@ -10,37 +10,43 @@
 
 </div>
 
-**LLM PM who ships.** I build coding agents, agent harnesses, and the tooling around them — then stress-test everything by living inside AI coding tools all day. The evidence is below. ⬇️
+**LLM Product Manager · Agent Builder.** I work on coding agents, agent
+harnesses, local ASR, and the tooling used to evaluate and operate them. The
+projects below come from hands-on use and local experiments.
 
-## 🔥 Token Furnace
+**大模型产品经理 · Agent Builder。** 主要方向包括 Coding Agent、Agent Harness、本地 ASR，以及相关的评测与运行工具。下面的项目来自日常使用和本地实验。
 
-> My AI usage is public. Every green square is a day I fed the machines.
+## 🔥 Token Furnace / Token 使用记录
+
+> Public activity snapshot from my day-to-day use of AI development tools.
+>
+> 这里展示我日常使用 AI 开发工具的公开记录。
 
 <a href="https://tokscale.ai/u/GuanZhengPM">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=light">
-    <img width="100%" src="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=dark" alt="Live token usage stats" />
+    <img width="100%" src="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=dark" alt="Live token usage stats / 实时 Token 使用统计" />
   </picture>
 </a>
 
-<sub>Cost shown is API list-price equivalent — actual usage runs on subscription plans. (Live card via <a href="https://tokscale.ai">tokscale.ai</a>)</sub>
+<sub>Cost shown is the API list-price equivalent; actual usage runs on subscription plans. Live card via <a href="https://tokscale.ai">tokscale.ai</a>.<br>费用按 API 公开价格等值估算，实际使用基于订阅方案；动态图表由 <a href="https://tokscale.ai">tokscale.ai</a> 提供。</sub>
 
-## 🛠️ What I'm Building
+## 🛠️ What I'm Building / 正在做的项目
 
-| Project | What it does |
+| Project / 项目 | What it does / 项目简介 |
 |---|---|
-| [**longtime-agent**](https://github.com/GuanZhengPM/longtime-agent) | Long-horizon coding agent harness with durable state and evidence-gated completion — agents that survive hours, not minutes |
-| [**AAA-Agent**](https://github.com/GuanZhengPM/AAA-Agent) | An AI coding agent, built from scratch in TypeScript |
-| [**agent-merge**](https://github.com/GuanZhengPM/agent-merge) | Save-points, parallel timelines, and failure bisection for agent work — git semantics for agent sessions |
-| [**TurnAlign**](https://github.com/GuanZhengPM/TurnAlign) | Model-replaceable streaming ASR orchestration with timestamps and speaker diarization |
-| [**DayAudio**](https://github.com/GuanZhengPM/DayAudio) | Local-first batch processing for day-long recordings — resumable ASR, file-local speaker tracks, explicit owner profiles, and evidence-linked summaries |
-| [**guanzhengpm.github.io**](https://github.com/GuanZhengPM/guanzhengpm.github.io) | My blog — notes on agents, evals, and LLM product work |
+| [**longtime-agent**](https://github.com/GuanZhengPM/longtime-agent) | Long-horizon coding-agent harness with durable state and evidence-gated completion.<br><sub>具备持久状态和以证据为门槛的完成判定机制的长周期 Coding Agent Harness。</sub> |
+| [**AAA-Agent**](https://github.com/GuanZhengPM/AAA-Agent) | An AI coding agent built from scratch in TypeScript.<br><sub>使用 TypeScript 从零构建的 AI Coding Agent。</sub> |
+| [**agent-merge**](https://github.com/GuanZhengPM/agent-merge) | Save-points, parallel timelines, and failure bisection for agent work.<br><sub>为 Agent 工作提供存档点、并行时间线和故障二分定位。</sub> |
+| [**TurnAlign**](https://github.com/GuanZhengPM/TurnAlign) | Model-replaceable streaming ASR orchestration with timestamps and speaker diarization.<br><sub>支持模型替换、时间戳和说话人分离的流式 ASR 编排。</sub> |
+| [**DayAudio**](https://github.com/GuanZhengPM/DayAudio) | Local batch processing for day-long recordings: resumable ASR, file-local speaker tracks, explicit owner profiles, and evidence-linked summaries.<br><sub>面向全天录音的本地批处理：可恢复 ASR、文件内说话人轨、显式主要说话人（owner）档案和证据关联摘要。</sub> |
+| [**guanzhengpm.github.io**](https://github.com/GuanZhengPM/guanzhengpm.github.io) | Notes on agents, evaluations, and LLM product work.<br><sub>关于 Agent、评测和大模型产品工作的博客笔记。</sub> |
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Snake / 贡献记录
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuanZhengPM/GuanZhengPM/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/GuanZhengPM/GuanZhengPM/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
+    <img src="https://raw.githubusercontent.com/GuanZhengPM/GuanZhengPM/output/github-contribution-grid-snake.svg" alt="Contribution snake / 贡献记录" />
   </picture>
 </div>

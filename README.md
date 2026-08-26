@@ -33,6 +33,7 @@
 | [**AAA-Agent**](https://github.com/GuanZhengPM/AAA-Agent) | An AI coding agent, built from scratch in TypeScript |
 | [**agent-merge**](https://github.com/GuanZhengPM/agent-merge) | Save-points, parallel timelines, and failure bisection for agent work — git semantics for agent sessions |
 | [**TurnAlign**](https://github.com/GuanZhengPM/TurnAlign) | Model-replaceable streaming ASR orchestration with timestamps and speaker diarization |
+| [**DayAudio**](https://github.com/GuanZhengPM/DayAudio) | Local-first batch processing for day-long recordings — resumable ASR, file-local speaker tracks, explicit owner profiles, and evidence-linked summaries |
 | [**guanzhengpm.github.io**](https://github.com/GuanZhengPM/guanzhengpm.github.io) | My blog — notes on agents, evals, and LLM product work |
 
 ## 🐍 Contribution Snake

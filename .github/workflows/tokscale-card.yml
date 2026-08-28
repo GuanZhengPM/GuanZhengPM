@@ -1,0 +1,58 @@
+name: Refresh Tokscale card
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-tokscale-card
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download and validate the latest card
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          temporary_file="$(mktemp)"
+          trap 'rm -f "$temporary_file"' EXIT
+
+          curl \
+            --fail \
+            --location \
+            --retry 2 \
+            --retry-delay 5 \
+            --silent \
+            --show-error \
+            "https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=dark" \
+            --output "$temporary_file"
+
+          grep --quiet '<svg' "$temporary_file"
+          grep --quiet 'Tokscale stats for @GuanZhengPM' "$temporary_file"
+          test "$(wc -c < "$temporary_file")" -gt 1000
+          mv "$temporary_file" assets/tokscale.svg
+
+      - name: Commit the card only when it changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/tokscale.svg; then
+            echo "Tokscale card is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/tokscale.svg
+          git commit -m "chore: refresh Tokscale card"
+          git push

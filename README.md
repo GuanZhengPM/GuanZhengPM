@@ -23,14 +23,11 @@ projects below come from hands-on use and local experiments.
 > 这里展示我日常使用 AI 开发工具的公开记录。
 
 <a href="https://tokscale.ai/u/GuanZhengPM">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=light">
-    <img width="100%" src="https://tokscale.ai/api/embed/GuanZhengPM/svg?template=terminal&graph=1&color=green&theme=dark" alt="Live token usage stats / 实时 Token 使用统计" />
-  </picture>
+  <img width="100%" src="./assets/tokscale.svg" alt="Cached token usage stats / Token 使用统计缓存" />
 </a>
 
-Cost shown is the API list-price equivalent; actual usage runs on subscription plans. Live card via [tokscale.ai](https://tokscale.ai).<br>
-费用按 API 公开价格等值估算，实际使用基于订阅方案；动态图表由 [tokscale.ai](https://tokscale.ai) 提供。
+Cost shown is the API list-price equivalent; actual usage runs on subscription plans. Cached hourly from [tokscale.ai](https://tokscale.ai).<br>
+费用按 API 公开价格等值估算，实际使用基于订阅方案；卡片每小时从 [tokscale.ai](https://tokscale.ai) 更新缓存。
 
 ## 🛠️ What I'm Building / 正在做的项目
 

@@ -46,6 +46,11 @@ An AI coding agent built from scratch in TypeScript.<br>
 Save-points, parallel timelines, and failure bisection for agent work.<br>
 为 Agent 工作提供存档点、并行时间线和故障二分定位。
 
+### [Agent Learning Gate](https://github.com/GuanZhengPM/agent-learning-gate)
+
+Evidence, scope, and approval checks for durable agent memory, rules, and skills.<br>
+面向 Agent 长期记忆、规则和 Skill 写入的证据、作用域与授权检查。
+
 ### [TurnAlign](https://github.com/GuanZhengPM/TurnAlign)
 
 Model-replaceable streaming ASR orchestration with timestamps and speaker diarization.<br>

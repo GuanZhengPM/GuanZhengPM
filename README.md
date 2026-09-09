@@ -10,8 +10,8 @@
 </p>
 
 <b>LLM Product Manager · Agent Builder</b><br>
-<sub>I build coding agents, agent harnesses and local ASR — plus the tooling to evaluate and operate them.<br>
-大模型产品经理 · Agent Builder。方向：Coding Agent、Agent Harness、本地 ASR，以及配套的评测与运行工具。</sub>
+Coding agents and speech, from scenario definition and data construction through model tuning, evaluation and shipping.<br>
+大模型产品经理 · Agent Builder。方向为 Coding Agent 与语音，覆盖场景定义、数据构造、模型优化、效果评估到产品落地。
 
 </div>
 
@@ -19,42 +19,47 @@
 
 ## 🛠 What I'm Building · 正在做的项目
 
-**Agent Harness**
-
-| Project | What it does |
-| :--- | :--- |
-| **[longtime-agent](https://github.com/GuanZhengPM/longtime-agent)**<br><sub>`TypeScript`</sub> | Long-horizon coding-agent harness with durable state and evidence-gated completion.<br><sub>长周期 Coding Agent Harness：持久状态 + 以证据为门槛的完成判定。</sub> |
-| **[AAA-Agent](https://github.com/GuanZhengPM/AAA-Agent)**<br><sub>`TypeScript`</sub> | A terminal coding agent built from scratch — adaptive routing, model-aware execution policies.<br><sub>从零构建的终端 Coding Agent：自适应路由与模型感知的执行策略。</sub> |
-| **[agent-merge](https://github.com/GuanZhengPM/agent-merge)**<br><sub>`TypeScript`</sub> | Save-points, parallel timelines and failure bisection for agent work.<br><sub>为 Agent 工作提供存档点、并行时间线与故障二分定位。</sub> |
-| **[agent-learning-gate](https://github.com/GuanZhengPM/agent-learning-gate)** | Evidence, scope and approval checks before an agent writes to durable memory.<br><sub>Agent 写入长期记忆 / 规则 / Skill 前的证据、作用域与授权检查。</sub> |
-
-**Speech · 语音**
-
-| Project | What it does |
-| :--- | :--- |
-| **[TurnAlign](https://github.com/GuanZhengPM/TurnAlign)**<br><sub>`Python`</sub> | Model-replaceable streaming ASR orchestration with timestamps and diarization.<br><sub>可替换模型的流式 ASR 编排，带时间戳与说话人分离。</sub> |
-| **[DayAudio](https://github.com/GuanZhengPM/DayAudio)** | Day-long recordings, processed locally: resumable ASR, speaker tracks, evidence-linked summaries.<br><sub>全天录音本地批处理：可恢复 ASR、文件内说话人轨、证据关联摘要。</sub> |
-
-**Writing · 写作**
-
-| Project | What it does |
-| :--- | :--- |
-| **[guanzhengpm.github.io](https://guanzhengpm.github.io/)** | Notes on agents, evaluation and LLM product work.<br><sub>关于 Agent、评测与大模型产品的笔记。</sub> |
+<table>
+<thead>
+<tr><th align="left" width="230">Project</th><th align="left">What it does</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="2"><b>Agent Harness</b></td></tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/longtime-agent">longtime-agent</a></td>
+  <td>A harness for long-horizon coding tasks. Task state is durable and survives interruption; completion is judged on execution evidence, not the model's own report.<br>面向长程任务的 Coding Agent Harness。任务状态持久化，中断后可恢复；完成与否以执行证据判定，而非模型自述。</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/AAA-Agent">AAA-Agent</a></td>
+  <td>A terminal coding agent built from scratch. Routes models by task, adapts execution policy to model capability, and verifies its output before handing it back.<br>从零构建的终端 Coding Agent。按任务路由模型，执行策略随模型能力调整，产出经验证后再交付。</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/agent-merge">agent-merge</a></td>
+  <td>Multi-agent orchestration with version control for agent sessions. Workers run in isolated Git worktrees, patches are selected by test results, failed attempts go to a repair round, and every attempt is retained as a traceable timeline.<br>多 Agent 编排与会话版本控制。多个 Agent 在独立 Git worktree 中并行处理同一任务，以测试结果筛选补丁，失败的进入修复轮；全部尝试留存为可回溯的时间线。</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/agent-learning-gate">agent-learning-gate</a></td>
+  <td>Governs what an agent learns. Checks evidence and scope before anything is written to memory, rules or skills, and records rejected approaches so a new session does not retry a path already ruled out.<br>管控 Agent 的长期学习。写入记忆、规则或 Skill 前校验证据与作用域，避免把一次性反馈固化为长期指令；同时留存被否决的方案，防止新会话重复已淘汰的路径。</td>
+</tr>
+<tr><td colspan="2"><b>Speech · 语音</b></td></tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/TurnAlign">TurnAlign</a></td>
+  <td>Streaming ASR orchestration with timestamps and speaker diarization. The underlying recognition model is replaceable.<br>流式 ASR 编排，输出带时间戳与说话人分离结果，底层识别模型可替换。</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/DayAudio">DayAudio</a></td>
+  <td>Local transcription for day-long recordings. Resumable, speaker-aware, and every line of the summary is linked back to its position in the audio.<br>全天录音的本地转写。支持断点续跑与说话人识别，摘要中每条结论均关联到原始音频位置。</td>
+</tr>
+<tr><td colspan="2"><b>Writing · 写作</b></td></tr>
+<tr>
+  <td><a href="https://guanzhengpm.github.io/">guanzhengpm.github.io</a></td>
+  <td>Notes on agents, evaluation and LLM product work.<br>关于 Agent、评测与大模型产品的笔记。</td>
+</tr>
+</tbody>
+</table>
 
 ## 🔥 Token Furnace · Token 使用记录
 
 <a href="https://tokscale.ai/u/GuanZhengPM">
   <img width="100%" src="./assets/tokscale.svg" alt="Cached token usage stats / Token 使用统计缓存" />
 </a>
-
-<sub>Public snapshot of my day-to-day AI-tool usage. Cost is the API list-price equivalent; actual usage runs on subscription plans. Cached hourly from <a href="https://tokscale.ai">tokscale.ai</a>.<br>
-日常 AI 开发工具使用的公开记录。费用按 API 公开价格等值估算，实际基于订阅方案；每小时从 tokscale.ai 更新缓存。</sub>
-
-## 🐍 Contributions · 贡献记录
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuanZhengPM/GuanZhengPM/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/GuanZhengPM/GuanZhengPM/output/github-contribution-grid-snake.svg" alt="Contribution snake / 贡献记录" />
-  </picture>
-</div>

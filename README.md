@@ -9,10 +9,6 @@
   <img src="https://img.shields.io/badge/Focus-Coding%20Agents-8250df?style=flat-square" alt="Focus">
 </p>
 
-<b>LLM Product Manager · Agent Builder</b><br>
-Coding agents and speech, from scenario definition and data construction through model tuning, evaluation and shipping.<br>
-大模型产品经理 · Agent Builder。方向为 Coding Agent 与语音，覆盖场景定义、数据构造、模型优化、效果评估到产品落地。
-
 </div>
 
 <br>
@@ -26,7 +22,7 @@ Coding agents and speech, from scenario definition and data construction through
 <tbody>
 <tr><td colspan="2"><b>Agent Harness</b></td></tr>
 <tr>
-  <td><a href="https://github.com/GuanZhengPM/longtime-agent">longtime-agent</a></td>
+  <td><a href="https://github.com/GuanZhengPM/looongtime-agent">looongtime-agent</a></td>
   <td>A harness for long-horizon coding tasks. Task state is durable and survives interruption; completion is judged on execution evidence, not the model's own report.<br>面向长程任务的 Coding Agent Harness。任务状态持久化，中断后可恢复；完成与否以执行证据判定，而非模型自述。</td>
 </tr>
 <tr>

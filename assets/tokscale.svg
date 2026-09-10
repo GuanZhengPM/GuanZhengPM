@@ -9,16 +9,16 @@
   <line x1="22" y1="60" x2="578" y2="60" stroke="rgba(255,255,255,0.09)"/>
   <g data-readout="usage">
   <text x="22" y="82" fill="#A8B3C5" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">tokens</text>
-  <text x="578" y="82" fill="#40c463" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">20,388,995,234</text>
+  <text x="578" y="82" fill="#40c463" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">20,674,243,049</text>
   <text x="22" y="106" fill="#A8B3C5" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">cost</text>
-  <text x="578" y="106" fill="#3FB950" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">$14.6K</text>
+  <text x="578" y="106" fill="#3FB950" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">$14.8K</text>
   <text x="22" y="130" fill="#A8B3C5" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">rank.tokens</text>
-  <text x="578" y="130" fill="#F4F7FB" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">#631</text>
+  <text x="578" y="130" fill="#F4F7FB" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">#630</text>
   </g>
   <line x1="22" y1="146" x2="578" y2="146" stroke="rgba(255,255,255,0.09)"/>
   <g data-contribution-panel="true" data-bottom="279.7">
   <text x="22" y="169" fill="#F4F7FB" font-size="12" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">Contribution activity</text>
-  <text x="578" y="169" fill="#A8B3C5" font-size="10" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">168 active days</text>
+  <text x="578" y="169" fill="#A8B3C5" font-size="10" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">169 active days</text>
   <text x="22.0" y="186" fill="#A8B3C5" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">Sep</text>
   <text x="64.1" y="186" fill="#A8B3C5" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">Oct</text>
   <text x="106.2" y="186" fill="#A8B3C5" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">Nov</text>
@@ -400,10 +400,10 @@
   <rect x="569.47" y="204.53" width="8.53" height="8.53" rx="2.0" fill="#2e7745"><title>2026-09-07 · level 1</title></rect>
   <rect x="569.47" y="215.06" width="8.53" height="8.53" rx="2.0" fill="#2e7745"><title>2026-09-08 · level 1</title></rect>
   <rect x="569.47" y="225.58" width="8.53" height="8.53" rx="2.0" fill="#2e7745"><title>2026-09-09 · level 1</title></rect>
-  <rect x="569.47" y="236.11" width="8.53" height="8.53" rx="2.0" fill="#191F2B"><title>2026-09-10 · level 0</title></rect>
+  <rect x="569.47" y="236.11" width="8.53" height="8.53" rx="2.0" fill="#2e7745"><title>2026-09-10 · level 1</title></rect>
   </g>
   <g data-card-footer-y="296">
-  <text x="22" y="296" fill="#A8B3C5" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="460">Updated Sep 9, 2026 (UTC)</text>
+  <text x="22" y="296" fill="#A8B3C5" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="460">Updated Sep 10, 2026 (UTC)</text>
   <text x="578" y="296" fill="#A8B3C5" font-size="10" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="78">tokscale.ai</text>
   </g>
 </svg>

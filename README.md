@@ -4,6 +4,7 @@
 
 <p>
   <a href="https://guanzhengpm.github.io/"><img src="https://img.shields.io/badge/Blog-guanzhengpm.github.io-0969da?style=flat-square&logo=githubpages&logoColor=white" alt="Blog"></a>
+  <a href="https://scholar.google.com/citations?user=QZ43KEIAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-Guanzheng%20Wei-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
   <img src="https://img.shields.io/badge/Base-Beijing-cf222e?style=flat-square&logo=googlemaps&logoColor=white" alt="Beijing">
   <img src="https://img.shields.io/badge/ex-Z.ai-24292f?style=flat-square" alt="ex Z.ai">
   <img src="https://img.shields.io/badge/Focus-Coding%20Agents-8250df?style=flat-square" alt="Focus">

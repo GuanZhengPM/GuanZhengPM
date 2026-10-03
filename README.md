@@ -22,28 +22,33 @@
 <tr><td colspan="2"><b>Agent Harness</b></td></tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/looongtime-agent">looongtime-agent</a></td>
-  <td>A harness for long-horizon coding tasks. Task state is durable and survives interruption; completion is judged on execution evidence, not the model's own report.<br>面向长程任务的 Coding Agent Harness。任务状态持久化，中断后可恢复；完成与否以执行证据判定，而非模型自述。</td>
+  <td>Runs long coding tasks and saves progress so work can resume after an interruption. Checks scripts and tests to decide whether a task is complete.<br>针对长程编码任务做优化。保存任务进度，支持中断后继续，通过脚本和测试检查完成情况。</td>
 </tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/AAA-Agent">AAA-Agent</a></td>
-  <td>A terminal coding agent built from scratch. Routes models by task, adapts execution policy to model capability, and verifies its output before handing it back.<br>从零构建的终端 Coding Agent。按任务路由模型，执行策略随模型能力调整，产出经验证后再交付。</td>
+  <td>A terminal coding agent built from scratch. Selects models for each task and checks the result before returning it.<br>从零开发的终端Coding Agent。根据任务选择模型，完成后检查代码和执行结果。</td>
 </tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/agent-merge">agent-merge</a></td>
-  <td>Multi-agent orchestration with version control for agent sessions. Workers run in isolated Git worktrees, patches are selected by test results, failed attempts go to a repair round, and every attempt is retained as a traceable timeline.<br>多 Agent 编排与会话版本控制。多个 Agent 在独立 Git worktree 中并行处理同一任务，以测试结果筛选补丁，失败的进入修复轮；全部尝试留存为可回溯的时间线。</td>
+  <td>Runs agents in separate Git worktrees, compares their changes with tests, and keeps a record of each attempt.<br>让多个Agent在独立Git worktree中并行处理任务，通过测试比较修改结果，保留每次尝试的记录。</td>
 </tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/agent-learning-gate">agent-learning-gate</a></td>
-  <td>Governs what an agent learns. Checks evidence and scope before anything is written to memory, rules or skills, and records rejected approaches so a new session does not retry a path already ruled out.<br>管控 Agent 的长期学习。写入记忆、规则或 Skill 前校验证据与作用域，避免把一次性反馈固化为长期指令；同时留存被否决的方案，防止新会话重复已淘汰的路径。</td>
+  <td>Checks what an agent should save to memory, rules, or skills, and records rejected approaches to avoid repeating them.<br>在Agent写入记忆、规则或Skill前，检查依据和适用范围。保留被否决的方案，避免新会话重复尝试。</td>
 </tr>
 <tr><td colspan="2"><b>Speech · 语音</b></td></tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/TurnAlign">TurnAlign</a></td>
-  <td>Streaming ASR orchestration with timestamps and speaker diarization. The underlying recognition model is replaceable.<br>流式 ASR 编排，输出带时间戳与说话人分离结果，底层识别模型可替换。</td>
+  <td>Streaming speech recognition with timestamps and speaker labels. Supports replacing the recognition model.<br>流式语音识别，输出时间戳和说话人信息，支持更换识别模型。</td>
 </tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/DayAudio">DayAudio</a></td>
-  <td>Local transcription for day-long recordings. Resumable, speaker-aware, and every line of the summary is linked back to its position in the audio.<br>全天录音的本地转写。支持断点续跑与说话人识别，摘要中每条结论均关联到原始音频位置。</td>
+  <td>Transcribes long recordings locally, resumes interrupted work, and links summaries to the original audio.<br>在本地转写长时间录音，支持中断后继续。识别不同说话人，摘要可定位到原始音频。</td>
+</tr>
+<tr><td colspan="2"><b>Tools · 工具</b></td></tr>
+<tr>
+  <td><a href="https://github.com/GuanZhengPM/paper-resume">纸页简历 · Paper Resume</a></td>
+  <td>Edit resumes in Markdown and export PDFs. Adjust layout in the browser or through an agent using the CLI.<br>用Markdown编辑简历，导出PDF。可以在页面调整排版，也可以让Agent通过CLI修改。</td>
 </tr>
 <tr><td colspan="2"><b>Writing · 写作</b></td></tr>
 <tr>

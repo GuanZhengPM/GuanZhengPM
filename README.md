@@ -32,7 +32,7 @@
   <td><a href="https://github.com/GuanZhengPM/agent-learning-gate">agent-learning-gate</a></td>
   <td>Checks what an agent should save to memory, rules, or skills, and records rejected approaches to avoid repeating them.<br>在Agent写入记忆、规则或Skill前，检查依据和适用范围。保留被否决的方案，避免新会话重复尝试。</td>
 </tr>
-<tr><td colspan="2"><b>Speech · 语音</b></td></tr>
+<tr><td colspan="2"><b>ASR · 语音识别</b></td></tr>
 <tr>
   <td><a href="https://github.com/GuanZhengPM/TurnAlign">TurnAlign</a></td>
   <td>Streaming speech recognition with timestamps and speaker labels. Supports replacing the recognition model.<br>流式语音识别，输出时间戳和说话人信息，支持更换识别模型。</td>

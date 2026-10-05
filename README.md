@@ -46,7 +46,7 @@
   <td><a href="https://github.com/GuanZhengPM/paper-resume">纸页简历 · Paper Resume</a></td>
   <td>Edit resumes in Markdown and export PDFs. Adjust layout in the browser or through an agent using the CLI.<br>用Markdown编辑简历，导出PDF。可以在页面调整排版，也可以让Agent通过CLI修改。</td>
 </tr>
-<tr><td colspan="2"><b>Writing · 写作</b></td></tr>
+<tr><td colspan="2"><b>Blog · 博客</b></td></tr>
 <tr>
   <td><a href="https://guanzhengpm.github.io/">guanzhengpm.github.io</a></td>
   <td>Notes on agents, evaluation and LLM product work.<br>关于 Agent、评测与大模型产品的笔记。</td>

@@ -25,10 +25,6 @@
   <td>Runs long coding tasks and saves progress so work can resume after an interruption. Checks scripts and tests to decide whether a task is complete.<br>针对长程编码任务做优化。保存任务进度，支持中断后继续，通过脚本和测试检查完成情况。</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/GuanZhengPM/AAA-Agent">AAA-Agent</a></td>
-  <td>A terminal coding agent built from scratch. Selects models for each task and checks the result before returning it.<br>从零开发的终端Coding Agent。根据任务选择模型，完成后检查代码和执行结果。</td>
-</tr>
-<tr>
   <td><a href="https://github.com/GuanZhengPM/agent-merge">agent-merge</a></td>
   <td>Runs agents in separate Git worktrees, compares their changes with tests, and keeps a record of each attempt.<br>让多个Agent在独立Git worktree中并行处理任务，通过测试比较修改结果，保留每次尝试的记录。</td>
 </tr>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg data-template="terminal" width="600" height="312" viewBox="0 0 600 312" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tokscale stats for @GuanZhengPM">
+  <title>All-time rank</title>
   <defs><style>text{font-variant-numeric:tabular-nums}</style></defs>
   <rect width="600" height="312" rx="12" fill="#131822"/>
   <rect x="0.5" y="0.5" width="599" height="311" rx="11.5" fill="none" stroke="rgba(255,255,255,0.16)"/>
@@ -13,7 +14,7 @@
   <text x="22" y="106" fill="#A8B3C5" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">cost</text>
   <text x="578" y="106" fill="#3FB950" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">$32.7K</text>
   <text x="22" y="130" fill="#A8B3C5" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">rank.tokens</text>
-  <text x="578" y="130" fill="#F4F7FB" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">#578</text>
+  <text x="578" y="130" fill="#F4F7FB" font-size="13" font-weight="600" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" data-fit-max-width="320">#579</text>
   </g>
   <line x1="22" y1="146" x2="578" y2="146" stroke="rgba(255,255,255,0.09)"/>
   <g data-contribution-panel="true" data-bottom="279.7">
